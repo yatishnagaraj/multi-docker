@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 services:
     - docker
@@ -20,4 +21,3 @@ after_success:
     - docker push yatishnagaraj/multi-nginx
     - docker push yatishnagaraj/multi-server
     - docker push yatishnagaraj/multi-worker
-    
